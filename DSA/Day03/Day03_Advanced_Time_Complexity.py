@@ -92,3 +92,26 @@ for i in range(n):
     print(i)
 
 # It have Time Complexity O(n) because it has one loop. It has n number of inputs so the output is linear to the input so, it has O(n) 
+
+
+for i in range(n):
+    print(i)
+
+for j in range(n):
+    for k in range(5):
+        print(j, k)
+
+# Time Complexity O(n) + O(n * 1) = O(2n) = O(n)
+# The inner loop executes only 5 times regardless of the input size. Since 5 is a constant, it contributes O(1). Therefore, the second part has complexity O(n × 1) = O(n). Combining both loops gives O(n) + O(n) = O(2n), which simplifies to O(n).
+
+
+
+for i in range(n):
+    print(i)
+
+i = n
+while i > 1:
+    i //= 2
+
+# Time Complexity O(n)
+# The total time complexity is O(n + log n). As n becomes very large, O(n) dominates O(log n), so the final time complexity is O(n).
