@@ -1,3 +1,16 @@
+"""
+LeetCode #121 - Best Time to Buy and Sell Stock
+
+Approach:
+- Track Minimum Price
+- Greedy
+
+Time Complexity: O(n)
+Space Complexity: O(1)
+"""
+
+
+
 prices = [7,1,5,3,6,4]
 
 
@@ -13,7 +26,7 @@ for price in prices:
             max_profit = profit
 
 
-print("Your Profit ",max_profit)
+print("Your Profit : ",max_profit)
 
 # Time Complexity O(n)
 # Space Complexity O(1)

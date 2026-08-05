@@ -1,3 +1,16 @@
+"""
+LeetCode #217 - Contains Duplicate
+
+Approach:
+- Hash Set
+
+Time Complexity: O(n)
+Space Complexity: O(n)
+"""  
+
+
+
+
 nums = [1,2,3,1]
 
 
